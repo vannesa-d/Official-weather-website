@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffeef7;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffb6c1;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #d63384;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 70%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ffb6c1;
+    outline: none;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #d63384;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #c2185b;
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.temp {
+    font-size: 64px;
+    font-weight: 300;
+    color: #d63384;
+}
+
+.condition {
+    font-size: 20px;
+    color: #555;
+}
+
+.details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.details li {
+    width: 48%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}
+
+.forecast {
+    margin-top: 20px;
+    background-color: #fef0f6;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-day {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ffb6c1;
+}
+
+.forecast-day:last-child {
+    border-bottom: none;
+}
+
+.forecast-date {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d63384;
+    flex: 1;
+}
+
+.forecast-icon {
+    width: 40px;
+    height: 40px;
+    flex: 0;
+    margin-right: 10px;
+}
+
+.forecast-temp {
+    font-size: 16px;
+    color: #333;
+    text-align: right;
+    flex: 1;
+}

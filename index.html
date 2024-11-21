@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>The Weather At Your Fingertips</h1>
+        <div class="search-bar">
+            <input type="text" id="city-input" placeholder="Search for a city...">
+            <button onclick="searchCity()">Search</button>
+        </div>
+        <div id="city-name" style="text-align: center; font-size: 24px; color: #d63384; margin-bottom: 15px;">Enter a city</div>
+        <div class="weather-info">
+            <div class="temp" id="temperature">--°C</div>
+            <div class="condition" id="condition">
+                <img id="weather-icon" src="" alt="Weather Icon" style="display: none; width: 50px; height: 50px;">
+                <span id="description">--</span>
+            </div>
+        </div>
+        <ul class="details">
+            <li id="humidity"><strong>Humidity:</strong> --%</li>
+            <li id="wind-speed"><strong>Wind Speed:</strong> -- km/h</li>
+            <li id="pressure"><strong>Pressure:</strong> -- hPa</li>
+            <li id="feels-like"><strong>Feels Like:</strong> --°C</li>
+        </ul>
+        <div class="footer" id="datetime">Weather data updated on --</div>
+        <div id="forecast" class="forecast">
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <p>
+        This project was coded by 
+        <a href="https://github.com/vannesa-d" target="_blank">Buhle Vannesa Dube</a> 
+        on <a href="https://github.com/vannesa-d/vee-weather" target="_blank">GitHub</a> 
+        and hosted on <a href="https://unrivaled-parfait-311032.netlify.app/" target="_blank">Netlify</a>.
+    </p>
+</body>
+</html>
